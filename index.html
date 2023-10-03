@@ -12,49 +12,50 @@
       <div class="display-cal" id="display"><span class="estandar">Estándar</span><br/><span class="span" id="span">0</span><span class="span2" id="span2">0</span></div>
       <div class="buttons-cal" id="buttons">
         <div>
-          <button class="operator"><i class="fa-solid fa-percent"></i></button>
-          <button class="operator">CE</button>
-          <button class="operator"><i class="fa-sharp fa-solid fa-c"></i></i></button>
-          <button class="operator">
+          <button class="operator" id="percent"><i class="fa-solid fa-percent"></i></button>
+          <button class="operator" id="deleteSemi">CE</button>
+          <button class="operator" id="deleteAll"><i class="fa-sharp fa-solid fa-c"></i></i></button>
+          <button class="operator" id="delete-1per1">
             <i class="fa-solid fa-delete-left"></i>
           </button>
         </div>
         <div>
-          <button class="operator">π</button>
-          <button class="operator">χ²</button>
-          <button class="operator">
+          <button class="operator" id="pi">π</button>
+          <button class="operator" id="squareX">χ²</button>
+          <button class="operator" id="squareD">
             <i class="fa-solid fa-square-root-variable"></i>
           </button>
-          <button class="operator"><i class="fa-solid fa-divide"></i></button>
+          <button class="operator" id="divide"><i class="fa-solid fa-divide"></i></button>
         </div>
         <div>
-          <button class="button"><i class="fa-solid fa-7"></i></button>
-          <button class="button"><i class="fa-solid fa-8"></i></button>
-          <button class="button"><i class="fa-solid fa-9"></i></button>
-          <button class="operator"><i class="fa-solid fa-xmark"></i></button>
+          <button class="button" id="7"><i class="fa-solid fa-7"></i></button>
+          <button class="button" id="8"><i class="fa-solid fa-8"></i></button>
+          <button class="button" id="9"><i class="fa-solid fa-9"></i></button>
+          <button class="operator" id="times"><i class="fa-solid fa-xmark"></i></button>
         </div>
         <div>
-          <button class="button"><i class="fa-solid fa-4"></i></button>
-          <button class="button"><i class="fa-solid fa-5"></i></button>
-          <button class="button"><i class="fa-solid fa-6"></i></button>
-          <button class="operator"><i class="fa-solid fa-minus"></i></button>
+          <button class="button" id="4"><i class="fa-solid fa-4"></i></button>
+          <button class="button" id="5"><i class="fa-solid fa-5"></i></button>
+          <button class="button" id="6"><i class="fa-solid fa-6"></i></button>
+          <button class="operator" id="minus"><i class="fa-solid fa-minus"></i></button>
         </div>
         <div>
-          <button class="button"><i class="fa-solid fa-1"></i></button>
-          <button class="button"><i class="fa-solid fa-2"></i></button>
-          <button class="button"><i class="fa-solid fa-3"></i></button>
-          <button class="operator"><i class="fa-solid fa-plus"></i></button>
+          <button class="button" id="1"><i class="fa-solid fa-1"></i></button>
+          <button class="button" id="2"><i class="fa-solid fa-2"></i></button>
+          <button class="button" id="3"><i class="fa-solid fa-3"></i></button>
+          <button class="operator" id="plus"><i class="fa-solid fa-plus"></i></button>
         </div>
         <div>
           <button class="operator">
-            <i class="fa-solid fa-plus-minus"></i>
+            <i class="fa-solid fa-plus-minus" id="plusMinus"></i>
           </button>
-          <button class="button"><i class="fa-solid fa-0"></i></button>
-          <button class="decimal">,</button>
-          <button class="result"><i class="fa-solid fa-equals"></i></button>
+          <button class="button" id="0"><i class="fa-solid fa-0"></i></button>
+          <button class="decimal" id="decimal">,</button>
+          <button class="result" id="equals"><i class="fa-solid fa-equals"></i></button>
         </div>
       </div>
     </div>
+    <script src="scripts/index.js"></script>
     <script
       src="https://kit.fontawesome.com/8ec1892a41.js"
       crossorigin="anonymous"

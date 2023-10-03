@@ -1,6 +1,6 @@
 body {
   
-  background-color: rgba(206, 36, 183, 0.451);
+  background-color: rgba(222, 215, 221, 0.451);
 }
 .conteiner-cal {
   display: flex;
@@ -48,13 +48,13 @@ body {
   margin: 3px;
   height: 78px;
   width: 118px;
-  background-color: rgb(35, 35, 34);
+  background-color: rgb(153, 153, 150);
   text-align: center;
 }
 .button {
   height: 78px;
   margin: 3px;
-  background-color: rgb(80, 75, 75);
+  background-color: rgb(43, 42, 42);
   color: #fff;
   width: 118px;
 }
@@ -68,9 +68,9 @@ body {
 .result {
   height: 78px;
   margin: 3px;
-  background-color: rgb(92, 91, 91);
+  background-color: rgb(225, 107, 9);
   width: 118px;
-  color: black;
+  color: rgb(247, 242, 242);
 }
 .estandar{
   font-size:30px;
